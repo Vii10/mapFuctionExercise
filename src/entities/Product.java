@@ -26,8 +26,8 @@ public class Product {
 		this.value = value;
 	}
 	
-	public static String upperCaseAtt(Product p) {
-		return p.getName().toUpperCase();
+	public String upperCaseAtt() {
+		return name.toUpperCase();
 	}
 
 	@Override
